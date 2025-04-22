@@ -1,0 +1,31 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /> <!-- Codificación de caracteres -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Escalado para dispositivos móviles -->
+  <title>Snake Game</title> <!-- Título de la página -->
+  <link rel="stylesheet" href="style.css" /> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+  <div class="game-container">
+    <!-- Título principal del juego -->
+    <h1 class="main-title">Semana TECH 2025</h1>
+    <!-- Subtítulo debajo del título -->
+    <h2 class="subtitle">Tec de Software</h2>
+    <!-- Marcador de puntuación con el puntaje actual y el puntaje más alto -->
+    <h3 class="subtitle">Hecho por el Ing. Ariff Medina</h3>
+    <div class="scoreboard">
+      <span>Score: <span id="score">0</span></span>
+      <span>High Score: <span id="high-score">0</span></span>
+    </div>
+    <!-- Canvas donde se dibuja el juego -->
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <!-- Barra de temporizador -->
+    <div id="timer-bar">
+      <div id="timer-fill"></div>
+      <div id="timer-seconds">0s</div>
+    </div>
+  </div>
+  <script src="script.js"></script> <!-- Enlace al archivo JS que contiene la lógica del juego -->
+</body>
+</html>
